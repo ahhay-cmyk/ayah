@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untuk Ayah Tercinta ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+min-height:100vh;
+background:
+linear-gradient(#020024,#090979,#00d4ff);
+overflow-x:hidden;
+color:white;
+}
+
+
+.opening{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+text-align:center;
+}
+
+
+.opening h1{
+font-size:35px;
+margin-bottom:30px;
+text-shadow:0 0 20px white;
+}
+
+
+button{
+padding:15px 35px;
+border:none;
+border-radius:50px;
+background:linear-gradient(45deg,#ff4e91,#ff9a9e);
+color:white;
+font-size:18px;
+cursor:pointer;
+box-shadow:0 0 20px pink;
+}
+
+
+.card{
+
+display:none;
+
+width:90%;
+max-width:700px;
+
+margin:40px auto;
+
+padding:30px;
+
+background:
+rgba(255,255,255,.15);
+
+backdrop-filter:blur(10px);
+
+border-radius:25px;
+
+text-align:center;
+
+animation:muncul 1s;
+
+}
+
+
+@keyframes muncul{
+
+from{
+opacity:0;
+transform:translateY(50px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+
+.card img{
+
+width:250px;
+height:250px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+margin:20px;
+
+box-shadow:0 0 25px rgba(255,255,255,.5);
+
+transition:0.5s;
+
+}
+
+
+p{
+
+font-size:17px;
+
+line-height:1.8;
+
+margin:20px 0;
+
+}
+
+
+.heart{
+
+position:fixed;
+
+top:-20px;
+
+font-size:25px;
+
+animation:jatuh linear infinite;
+
+}
+
+
+@keyframes jatuh{
+
+to{
+
+transform:
+translateY(110vh)
+rotate(360deg);
+
+}
+
+}
+
+#hadiah{
+
+display:none;
+
+position:fixed;
+
+top:50%;
+
+left:50%;
+
+transform:translate(-50%,-50%);
+
+width:85%;
+
+max-width:500px;
+
+background:white;
+
+color:#333;
+
+padding:30px;
+
+border-radius:25px;
+
+text-align:center;
+
+z-index:99;
+
+box-shadow:
+0 0 50px white;
+
+animation:muncul .5s;
+
+}
+.kue{
+
+margin:40px auto;
+
+width:180px;
+
+height:150px;
+
+position:relative;
+
+animation:naik 2s infinite alternate;
+
+}
+
+
+@keyframes naik{
+
+from{
+transform:translateY(10px);
+}
+
+to{
+transform:translateY(-10px);
+}
+
+}
+
+
+
+.badan{
+
+position:absolute;
+
+bottom:0;
+
+width:180px;
+
+height:90px;
+
+background:#ff7eb3;
+
+border-radius:20px 20px 10px 10px;
+
+font-size:60px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+box-shadow:
+0 0 30px pink;
+
+}
+
+
+
+.atas{
+
+position:absolute;
+
+top:35px;
+
+width:180px;
+
+height:25px;
+
+background:white;
+
+border-radius:20px;
+
+z-index:2;
+
+}
+
+
+
+.lilin{
+
+position:absolute;
+
+top:0;
+
+left:80px;
+
+width:20px;
+
+height:50px;
+
+background:#ffe066;
+
+z-index:5;
+
+border-radius:5px;
+
+}
+
+
+
+.api{
+
+width:20px;
+
+height:20px;
+
+background:orange;
+
+border-radius:50%;
+
+position:absolute;
+
+top:-18px;
+
+animation:api .5s infinite alternate;
+
+box-shadow:
+0 0 20px orange;
+
+}
+
+
+
+@keyframes api{
+
+from{
+
+transform:scale(.8);
+
+}
+
+to{
+
+transform:scale(1.2);
+
+}
+
+}
+.mati{
+
+display:none;
+
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="opening" id="awal">
+
+<h1 id="judul"></h1>
+
+<button onclick="buka()"> Buka Ucapan
+</button>
+
+</div>
+
+
+
+<div class="card" id="isi">
+
+
+<h1>
+ Selamat Ulang Tahun Ayah ❤️
+</h1>
+
+
+<img id="foto" src="https://www.image2url.com/r2/default/images/1784082064754-5c6a8479-ac81-4a9d-83c4-c18c1a11d0be.jpg">
+
+
+
+<p>
+Selamat ulang tahun, Ayah tercinta. ❤️
+</p>
+
+
+<p>
+Terima kasih atas semua kerja keras, pengorbanan,
+dan kasih sayang yang Ayah berikan selama ini.
+Mungkin tidak semua lelah Ayah terlihat,
+tetapi aku tahu setiap usaha yang Ayah lakukan
+adalah demi kebahagiaan dan masa depan keluarga.
+</p>
+
+
+<p>
+Ayah adalah sosok yang selalu kuat,
+selalu berusaha memberikan yang terbaik,
+dan selalu menjadi tempat kami belajar tentang arti
+tanggung jawab, kesabaran, dan kasih sayang.
+</p>
+
+
+<p>
+Di hari spesial ini, aku berdoa semoga Ayah selalu
+diberikan kesehatan, rezeki yang melimpah,
+hati yang tenang, serta kebahagiaan dalam setiap langkah.
+Semoga segala doa dan harapan Ayah dikabulkan oleh Allah SWT
+dan Ayah selalu berada dalam lindungan-Nya.
+</p>
+
+
+<p>
+Maaf jika selama ini aku masih sering membuat Ayah kecewa,
+masih banyak kekurangan, atau belum bisa menjadi anak
+yang sepenuhnya Ayah banggakan.
+Aku akan terus belajar dan berusaha menjadi pribadi
+yang lebih baik untuk membuat Ayah bahagia.
+</p>
+
+
+<p>
+Terima kasih karena Ayah tidak pernah menyerah untuk keluarga.
+Terima kasih sudah menjadi sosok ayah yang kuat,
+penyayang, dan selalu ada dalam setiap keadaan.
+</p>
+
+
+<p>
+Semoga hari ulang tahun ini membawa banyak kebahagiaan,
+keberkahan, dan cinta dari orang-orang yang menyayangi Ayah.
+</p>
+
+
+<h2>
+Aku sayang Ayah. Terima kasih untuk semuanya ❤️
+</h2>
+<div class="kue">
+
+<div class="lilin">
+    <div class="api" id="api"></div>
+</div>
+
+<div class="atas"></div>
+
+<div class="badan">
+    
+</div>
+
+</div>
+
+<button onclick="tiupLilin()">
+ Tiup Lilin
+</button>
+<br>
+
+<button onclick="hadiah()">
+ Buka Hadiah
+</button>
+
+
+</div>
+
+
+<div id="hadiah">
+
+<h2>
+ Pesan Rahasia Untuk Ayah 
+</h2>
+
+<p>
+Ayah, mungkin aku belum bisa membalas semua kebaikan Ayah.
+Tapi aku ingin Ayah tahu, aku sangat bersyukur memiliki Ayah.
+
+Terima kasih sudah selalu berjuang,
+selalu menjaga keluarga,
+dan selalu memberikan yang terbaik.
+
+Aku sayang Ayah 
+</p>
+
+<button onclick="tutupHadiah()">
+Tutup
+</button>
+
+</div>
+<script>
+
+
+let tulisan =
+"Selamat Datang Ayah Tercinta ";
+
+
+let i=0;
+
+
+function ketik(){
+
+if(i<tulisan.length){
+
+document.getElementById("judul").innerHTML += tulisan[i];
+
+i++;
+
+setTimeout(ketik,100);
+
+}
+
+}
+
+
+ketik();
+
+
+
+function buka(){
+
+document.getElementById("awal").style.display="none";
+
+document.getElementById("isi").style.display="block";
+
+
+let lagu=document.getElementById("musik");
+
+lagu.play();
+
+
+buatHati();
+
+}
+
+
+
+function buatHati(){
+
+setInterval(()=>{
+
+let h=document.createElement("div");
+
+h.className="heart";
+
+h.innerHTML="";
+
+h.style.left=Math.random()*100+"vw";
+
+h.style.animationDuration=
+(3+Math.random()*5)+"s";
+
+
+document.body.appendChild(h);
+
+
+
+setTimeout(()=>{
+
+h.remove();
+
+},8000);
+
+
+
+},300);
+
+
+}
+
+function hadiah(){
+
+document.getElementById("hadiah").style.display="block";
+
+kembangApi();
+
+}
+
+
+
+function tutupHadiah(){
+
+document.getElementById("hadiah").style.display="none";
+
+}
+
+
+
+
+function kembangApi(){
+
+for(let i=0;i<50;i++){
+
+let k=document.createElement("div");
+
+k.innerHTML="";
+
+k.style.position="fixed";
+
+k.style.left="50%";
+
+k.style.top="50%";
+
+k.style.fontSize="30px";
+
+k.style.transition="1s";
+
+
+document.body.appendChild(k);
+
+
+
+setTimeout(()=>{
+
+k.style.transform=
+
+`
+translate(
+${Math.random()*600-300}px,
+${Math.random()*600-300}px
+)
+`;
+
+k.style.opacity="0";
+
+
+},50);
+
+
+
+setTimeout(()=>{
+
+k.remove();
+
+},1500);
+
+
+}
+
+} 
+function tiupLilin(){
+
+let api=document.getElementById("api");
+
+api.classList.add("mati");
+
+
+buatConfetti();
+
+
+}
+
+
+
+function buatConfetti(){
+
+for(let i=0;i<100;i++){
+
+let c=document.createElement("div");
+
+c.innerHTML="";
+
+c.style.position="fixed";
+
+c.style.left=Math.random()*100+"vw";
+
+c.style.top="-20px";
+
+c.style.fontSize="25px";
+
+c.style.transition="3s";
+
+
+document.body.appendChild(c);
+
+
+
+setTimeout(()=>{
+
+c.style.transform=
+`
+translateY(100vh)
+rotate(720deg)
+`;
+
+},100);
+
+
+
+setTimeout(()=>{
+
+c.remove();
+
+},4000);
+
+
+}
+
+}
+let fotoAyah = [
+"https://www.image2url.com/r2/default/images/1784082064754-5c6a8479-ac81-4a9d-83c4-c18c1a11d0be.jpg",
+
+"https://www.image2url.com/r2/default/images/1784076987463-101ca02f-e609-474c-b48f-118736e30a91.jpg",
+
+"https://www.image2url.com/r2/default/images/1784077078111-8674278c-7b13-4dfc-b63b-9cefc0ad5fed.jpg"
+];
+
+
+let nomor = 0;
+
+
+setInterval(()=>{
+
+nomor++;
+
+
+if(nomor >= fotoAyah.length){
+
+nomor = 0;
+
+}
+
+
+let foto = document.getElementById("foto");
+
+foto.style.opacity = 0;
+
+
+setTimeout(()=>{
+
+foto.src = fotoAyah[nomor];
+
+foto.style.opacity = 1;
+
+},500);
+
+
+},4000);
+</script>
+
+
+</body>
+<audio id="musik" loop>
+    <source src="https://www.image2url.com/r2/default/audio/1784074231549-a0a0b997-f068-44fa-940e-f9da7fadcd63.mp3" type="audio/mp3">
+</audio>
+</html>
